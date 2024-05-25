@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.subheader {
+  background-color: #0a0a0a;
+  padding: 8px 0px;
+  text-align: center;
+}
+
+.subheader p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.header-content {
+  height: 113px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 159px;
+}
+
+.logo {
+  width: 165px;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 37px;
+}
+
+.Account-btn,
+.cart-btn {
+  padding: 3px 12px;
+  background-color: #0a0a0a;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  display: inline-block;
+}
+
+.cart-btn {
+  background-color: #3a3a3a;
+  display: inline-flex;
+  align-items: center;
+  column-gap: 6px;
+}
+
+.buttons {
+  display: flex;
+  column-gap: 12px;
+}
+
+/* Main */
+
+.main-content {
+  background: url("/images/Banner.png");
+  width: 100%;
+  height: 569px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.main-text {
+  width: 538px;
+}
+
+.main-text h1 {
+  color: #fff;
+  font-size: 82px;
+  font-weight: 900;
+  line-height: 83.75px;
+  letter-spacing: 3.615px;
+  text-transform: uppercase;
+}
+
+.info-section {
+  height: 125px;
+  width: 903px;
+  margin: 42px auto 54px auto;
+  padding: 12px 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-card {
+  height: 101px;
+  width: 121px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-card-img {
+  width: 50px;
+  height: 53px;
+  margin-bottom: 16px;
+}
+
+.title {
+  text-align: center;
+}
